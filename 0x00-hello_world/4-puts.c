@@ -4,12 +4,14 @@
 /**
  * main - Entry point
  *
- * return: (success)
+ * Description: 'prints out programming is like building a mutilingual puzzel'
+ *
+ * Return: Always 0 (Success)
+ *
  */
+
 int main(void) /*main entry */
 {
 	puts("\"Programming is like building a multilingual puzzle");
-/* prints out programming is like building a mutilingual puzzel */
-	getchar();
 	return (0);
 }

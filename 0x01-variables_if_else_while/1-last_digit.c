@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	int last_digit
+	int last_digit;
 
 	int n;
 

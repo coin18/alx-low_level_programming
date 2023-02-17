@@ -14,16 +14,18 @@ int main(void)
 {
 	int n;
 
+	int last_digit
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 5)
-		printf("%d and is greater than 5 \n", n);
+	last_digit = n % 10;
+	if (last_digit > 5)
+		printf("and is greater than 5 %d", last_digit);
 	else if (n == 0)
-		printf("%d and is 0 \n", n);
-	else if
-		(n < 6 && n != 0);
-		printf("%d and is less than 6 and not 0 \n", n);
+		printf(" and is 0 %d", last_digit);
+	else
+		printf(" and is less than 6 and not 0 %d", last_digit);
 
 	/* This compare id n is positive, negative or equal to zero */
 	return (0);

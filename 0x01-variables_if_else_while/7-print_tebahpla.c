@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * lowercase alphabet in reverse, 
+ * lowercase alphabet in reverse
  *
  * Return: Always 0 (Success)
  */

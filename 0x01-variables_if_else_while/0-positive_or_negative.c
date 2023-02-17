@@ -14,7 +14,8 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = ramd() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
+	printf(n);
 	/* your code goes there */
 	return (0);
 }

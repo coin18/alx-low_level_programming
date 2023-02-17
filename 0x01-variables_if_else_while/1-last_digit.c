@@ -22,8 +22,8 @@ int main(void)
 	else if (n == 0)
 		printf("%d and is 0 \n", n);
 	else
-		(n < 6 && n != 0)
-		printf("%d abd is less than 6 and not 0 \n", n);
+		(n < 6 && n != 0);
+		printf("%d and is less than 6 and not 0 \n", n);
 
 	/* This compare id n is positive, negative or equal to zero */
 	return (0);

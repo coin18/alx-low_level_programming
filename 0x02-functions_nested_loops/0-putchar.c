@@ -1,18 +1,23 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
- * Entry main
- *
- * Prints _putchar
- *
- * Returns (0) Success
- */
+*main - prints putchar
+*
+*Return: 0 on success execution.
+*/
 
 int main(void)
 {
-	printf("%i",_putchar)
-	
-	return (0)
-}
+	char s[] = "_putchar";
+	int i = 0;
 
+	while (s[i] != '\0')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+	_putchar(10);
+
+	return (0);
+}
 

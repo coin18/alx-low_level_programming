@@ -2,7 +2,8 @@
 
 /**
  * _islower - checks whether or not a character is lowercase
- * Prototype: int _islower(int c); Returns 1 if c is lowercase Returns 0 otherwise
+ * Prototype: int _islower(int c); Returns 1 if c is lowercase Returns 0
+ * @c: integer representing ascii value of character
  * Return: 1 if it is lowercase or 0 otherwise
  */
 
